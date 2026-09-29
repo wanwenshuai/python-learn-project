@@ -1,0 +1,58 @@
+# Compiled class file
+*.class
+*/*.log
+**/*.log
+**/*.gz
+
+/src/main/resources/application-local.yml
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.claude
+
+# Intellij
+*.ipr
+*.iml
+*.iws
+.idea/
+logs/**
+
+# Maven
+target/
+
+**/target/
+
+
+# Gradle
+build
+.gradle
+
+# Log file
+*.log
+log/
+logs/
+LOG_HOME_IS_UNDEFINED/
+/logs/**
+.flattened-pom.xml
+**/logs/
+
+
+# out
+**/out/
+
+# Mac
+.DS_Store
+
+# others
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.pid
+*.orig
+temp/
+LOG_HOME_IS_UNDEFINED/**
